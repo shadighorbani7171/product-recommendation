@@ -1,25 +1,81 @@
-# Product Recommendation API
+Project Title: Semi-Intelligent Product Recommendation System
 
-A Laravel-based smart product recommendation API that provides personalized product suggestions using various recommendation strategies.
+This Laravel-based project is a smart product recommendation API that suggests relevant products to users based on:
 
-## Features
+🔍 User preferences (selected categories)
 
-- User Authentication (Login/Register)
-- Product Management
-- Recommendation System:
-  - Personalized Recommendations
-  - Trending Products
-  - Similar Products
-  - Search-based Recommendations
-- User Preference Management
-- Product Feedback System
+👀 User interactions (views, likes, purchases, search history)
 
-## Requirements
+📊 Trending data (popular products by time frame)
 
-- PHP >= 8.1
-- Composer
-- Docker
-- MySQL
+💰 Price range analysis (average viewed/purchased prices)
+
+Key Features:
+✅ RESTful API for managing products and recommendations
+
+✅ Personalized suggestions based on real-time user behavior
+
+✅ Authentication with Laravel Sanctum
+
+✅ Search-based, purchase-based, and feedback-driven recommendations
+
+✅ Fully extendable for machine learning in future
+
+Tech Stack:
+PHP (Laravel 10)
+
+MySQL
+
+Laravel Sail (Docker)
+
+Postman (API testing)
+
+React (Frontend - in progress)
+
+TypeScript (Frontend - in progress)
+
+🇮🇷 فارسی (توضیح برای گیت‌هاب)
+عنوان پروژه: سیستم پیشنهاد محصول نیمه‌هوشمند
+
+این پروژه با استفاده از فریم‌ورک Laravel توسعه داده شده و یک سیستم پیشنهاد محصول است که بر اساس رفتار کاربر، محصولات مرتبط را پیشنهاد می‌دهد:
+
+🔍 ترجیحات کاربر (دسته‌بندی‌های منتخب)
+
+👀 تعاملات کاربر (بازدید، لایک، خرید، جستجو)
+
+📊 محصولات ترند بر اساس زمان (هفتگی، روزانه، ماهانه)
+
+💰 تحلیل محدوده قیمتی (بر اساس میانگین بازدیدها یا خریدها)
+
+قابلیت‌ها:
+✅ API کامل برای مدیریت و پیشنهاد محصولات
+
+✅ پیشنهادات شخصی‌سازی‌شده بر اساس رفتار واقعی کاربر
+
+✅ سیستم احراز هویت با Laravel Sanctum
+
+✅ پیشنهاد بر اساس جستجو، خرید، و بازخورد (لایک/دیس‌لایک)
+
+✅ قابلیت گسترش برای استفاده از الگوریتم‌های یادگیری ماشین در آینده
+
+تکنولوژی‌ها:
+PHP (Laravel 10)
+
+MySQL
+
+Laravel Sail (Docker)
+
+Postman برای تست API
+
+React (فرانت‌اند - در حال توسعه)
+
+TypeScript (فرانت‌اند - در حال توسعه)
+
+
+
+
+ 
+
 
 ## Installation
 
